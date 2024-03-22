@@ -1,0 +1,43 @@
+
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+
+  .about{
+    height: 200px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.884);
+
+  }
+
+  .about .title{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about .title div span{
+color: white;
+  }
+
+  .about .links{
+    gap: 4px;
+  }
+
+
+  .about .links a{
+    font-size: 10px;
+    /* color: white; */
+
+  }
+
+  .description{
+    display: none;
+  }
+
+ 
+
+  .card:hover .about{
+    margin-top: -200px;
+    color: white;
+    transition: all .2s;
+  }
+}
