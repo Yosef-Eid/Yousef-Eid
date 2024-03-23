@@ -13,7 +13,6 @@ function Explains() {
     "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fyousefeidd%2Fposts%2Fpfbid0kFSqTygGn41U8tG9MourBpHaumnMn3bARCXNF5u5MWb6B9BNP3vZ1W3d8ba9x6vbl&show_text=true&width=500",
     "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fyousefeidd%2Fposts%2Fpfbid02YqCJ71hsYoic6jr1YPQnhDqDg92X69TeHacuRxHdSVPq6StY51rdDZmZk57CSZrql&show_text=true&width=500",
   ]
-  
 
   return (
     <div id='explains' className='w-full flex flex-col items-center justify-center flex-wrap gap-16 mt-28'>
@@ -22,10 +21,10 @@ function Explains() {
         <h1 className='text-[32px] font-semibold text-[#2b2b2b]'><span className='text-[#ffb400]'>My</span> Explains</h1>
         <p className='w-[80%] text-center text-[17px] text-[#6a6a6a] font-[400]'>Some explanations of programming ideas and concepts</p>
       </div>
-      <div className='w-full flex flex-wrap items-center justify-center gap-3 max-[610px]:grid max-[610px]:grid-cols-2'>
+      <div className='w-full flex flex-wrap items-center justify-center gap-3 max-[610px]:grid max-[610px]:gap-1 max-[610px]:grid-cols-2'>
         {
           LinksPosts.map((post, index) => (
-            <iframe key={index} className='w-[260px] h-80 rounded-lg shadow-lg max-[610px]:w-full max-[610px]:h-[250px]' src={post} frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            <iframe key={index} className='w-[260px] h-80 rounded-lg shadow-xl max-[610px]:w-full max-[610px]:h-[250px]' src={post} frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
           ))
         }
       </div>

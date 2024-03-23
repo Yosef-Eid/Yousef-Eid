@@ -4,6 +4,8 @@
 
   .about{
     height: 200px;
+    margin-bottom: -200px;
+    /* transform: translate(0px, 200px); */
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.884);
 
@@ -33,10 +35,8 @@ color: white;
     display: none;
   }
 
- 
-
   .card:hover .about{
-    margin-top: -200px;
+    margin-top: -220px;
     color: white;
     transition: all .2s;
   }

@@ -9,6 +9,8 @@ import note from './img-projects/note1.png'
 import eid from './img-projects/ed-circle.svg'
 import api from './img-projects/api.png'
 import cover from './img-projects/Cover.png'
+import joscript from './img-projects/joscript.png'
+import back from './img-projects/back-end.png'
 import curser from './img-projects/curser.png'
 import filter from './img-projects/filter.png'
 import hover from './img-projects/hover.png'
@@ -44,53 +46,62 @@ function Projects() {
 
   let projects = [
     {
+      img: back,
+      firstTitle: 'Add ',
+      lastTitle: 'User',
+      skills: [html, css, javascript, node, express, mongoDb, mongoose, git, github],
+      description: 'Add, delete and modify users using the database',
+      linkCode: 'https://github.com/Yosef-Eid/Back-End-dataUser',
+      linkWebsite: 'https://joscript.onrender.com/',
+    },
+    {
+      img: joscript,
+      firstTitle: 'Jo',
+      lastTitle: 'script',
+      skills: [react, next, tailwind, git, github],
+      description: 'A website about an academy for teaching programming',
+      linkCode: 'https://github.com/jo-script/joscript',
+      linkWebsite: 'https://joscript.vercel.app',
+    },
+    {
       img: note,
-      firstTitle: 'My',
+      firstTitle: 'My ',
       lastTitle: 'Note',
-      skills: [css, javascript, git, github],
+      skills: [html, css, javascript, git, github],
       description: 'Note: The program uses pure JavaScript',
       linkCode: 'https://github.com/Yosef-Eid/Note',
-      linkWebsite: 'https://yosef-eid.github.io/Ed-Circal/',
+      linkWebsite: 'https://note-me00.netlify.app/',
     },
     {
       img: todoList,
-      firstTitle: 'Eid',
-      lastTitle: 'Circle',
+      firstTitle: 'Todo ',
+      lastTitle: 'List',
       skills: [html, css, javascript, git, github],
-      description: 'A Website For Providing Educational Courses And Scholarships',
-      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
-      linkWebsite: 'https://note-me00.netlify.app/',
+      description: 'Add daily duties and tasks using React',
+      linkCode: 'https://github.com/Yosef-Eid/Todo-List',
+      linkWebsite: 'https://todo-list000.netlify.app',
     },
     {
       img: calculator,
-      firstTitle: 'Eid',
-      lastTitle: 'Circle',
-      skills: [html, css, javascript, git, github],
-      description: 'A Website For Providing Educational Courses And Scholarships',
-      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
-      linkWebsite: 'https://note-me00.netlify.app/',
-    },
-    {
-      img: cover,
-      firstTitle: 'Eid',
-      lastTitle: 'Circle',
-      skills: [html, css, javascript, git, github],
-      description: 'A Website For Providing Educational Courses And Scholarships',
-      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
-      linkWebsite: 'https://note-me00.netlify.app/',
+      firstTitle: 'Calc',
+      lastTitle: 'ulator',
+      skills: [react, git, github],
+      description: 'A simple calculator using React ...............',
+      linkCode: 'https://github.com/Yosef-Eid/Calculator-react',
+      linkWebsite: 'https://calculator0r.netlify.app/',
     },
     {
       img: api,
-      firstTitle: 'Api ',
+      firstTitle: 'API ',
       lastTitle: 'Fetching',
-      skills: [html, css, javascript, git, github],
-      description: 'A Website For Providing Educational Courses And Scholarships',
-      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
-      linkWebsite: 'https://note-me00.netlify.app/',
+      skills: [react, bootstrap, git, github],
+      description: 'Retrieve data from the API and display it in the browser',
+      linkCode: 'https://github.com/Yosef-Eid/fetch_API',
+      linkWebsite: 'https://fetch-api0.netlify.app',
     },
     {
       img: cover,
-      firstTitle: 'Eid',
+      firstTitle: 'Eid ',
       lastTitle: 'Circle',
       skills: [html, css, javascript, git, github],
       description: 'A Website For Providing Educational Courses And Scholarships',
@@ -99,76 +110,76 @@ function Projects() {
     },
     {
       img: curser,
-      firstTitle: 'Eid',
-      lastTitle: 'Circle',
+      firstTitle: 'Service ',
+      lastTitle: 'price',
       skills: [html, css, javascript, git, github],
-      description: 'A Website For Providing Educational Courses And Scholarships',
-      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
-      linkWebsite: 'https://note-me00.netlify.app/',
+      description: 'View paid plan details and pricing using your mouse cursor',
+      linkCode: 'https://github.com/Yosef-Eid/Course',
+      linkWebsite: 'https://yosef-eid.github.io/Course/',
     },
     {
       img: filter,
-      firstTitle: 'Eid',
-      lastTitle: 'Circle',
+      firstTitle: 'Filter ',
+      lastTitle: 'Project',
       skills: [html, css, javascript, git, github],
-      description: 'A Website For Providing Educational Courses And Scholarships',
+      description: 'You can easily filter projects among what you are looking for',
       linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
       linkWebsite: 'https://note-me00.netlify.app/',
     },
     {
       img: hover,
-      firstTitle: 'Eid',
-      lastTitle: 'Circle',
+      firstTitle: 'Hover ',
+      lastTitle: 'Window',
       skills: [html, css, javascript, git, github],
-      description: 'A Website For Providing Educational Courses And Scholarships',
-      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
-      linkWebsite: 'https://note-me00.netlify.app/',
+      description: 'Add a blurred interface to the window using the mouse cursor',
+      linkCode: 'https://github.com/Yosef-Eid/Hover',
+      linkWebsite: 'https://yosef-eid.github.io/Hover/',
     },
     {
       img: imgClick,
-      firstTitle: 'Eid',
-      lastTitle: 'Circle',
+      firstTitle: 'Click ',
+      lastTitle: 'Img-JS',
       skills: [html, css, javascript, git, github],
-      description: 'A Website For Providing Educational Courses And Scholarships',
-      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
-      linkWebsite: 'https://note-me00.netlify.app/',
+      description: 'Enlarge image with a mouse click using JavaScript',
+      linkCode: 'https://github.com/Yosef-Eid/img',
+      linkWebsite: 'https://yosef-eid.github.io/img/',
     },
     {
       img: imgCss,
-      firstTitle: 'Eid',
-      lastTitle: 'Circle',
-      skills: [html, css, javascript, git, github],
-      description: 'A Website For Providing Educational Courses And Scholarships',
-      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
-      linkWebsite: 'https://note-me00.netlify.app/',
+      firstTitle: 'Click ',
+      lastTitle: 'Img-Css',
+      skills: [html, css, git, github],
+      description: 'Enlarge image with a mouse click using only css',
+      linkCode: 'https://github.com/Yosef-Eid/Open-Image-',
+      linkWebsite: 'https://yosef-eid.github.io/Open-Image-/',
     },
     {
       img: singUp,
-      firstTitle: 'Eid',
-      lastTitle: 'Circle',
-      skills: [html, css, javascript, git, github],
-      description: 'A Website For Providing Educational Courses And Scholarships',
-      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
-      linkWebsite: 'https://note-me00.netlify.app/',
+      firstTitle: 'Sing',
+      lastTitle: 'Up',
+      skills: [react, git, github],
+      description: 'A login form that meets all conditions ......',
+      linkCode: 'https://github.com/Yosef-Eid/singUp-page',
+      linkWebsite: 'https://singup-page-5ce56.web.app/',
     },
     {
       img: training,
-      firstTitle: 'Eid',
-      lastTitle: 'Circle',
+      firstTitle: 'Tra',
+      lastTitle: 'ining',
       skills: [html, css, javascript, git, github],
-      description: 'A Website For Providing Educational Courses And Scholarships',
-      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
-      linkWebsite: 'https://note-me00.netlify.app/',
+      description: 'You Can Choose Between Countries Of The World',
+      linkCode: 'https://github.com/Yosef-Eid/webket-training',
+      linkWebsite: 'https://yosef-eid.github.io/webket-training/',
     },
     
     {
       img: web,
-      firstTitle: 'Eid',
-      lastTitle: 'Circle',
+      firstTitle: 'Web ',
+      lastTitle: 'Design',
       skills: [html, css, javascript, git, github],
-      description: 'A Website For Providing Educational Courses And Scholarships',
-      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
-      linkWebsite: 'https://note-me00.netlify.app/',
+      description: 'You Can Choose Agents All Over The World',
+      linkCode: 'https://github.com/Yosef-Eid/Web-Design',
+      linkWebsite: 'https://yosef-eid.github.io/Web-Design/',
     },
     
   ]
@@ -186,8 +197,8 @@ function Projects() {
         {
           projects.map((project, index) => (
             <div key={index} className='card w-[270px] h-[370px] max-[350px]:h-[370px] max-[350px]:w-[270px] max-[400px]:h-[200px] max-[400px]:w-[165px] flex flex-col justify-start shadow-[0_0_10px_0_rgba(0,0,0,.237)] rounded-xl overflow-hidden border-[1px] border-gray-300  '>
-              <div className='h-[220px w-full bg-cover bg-center ' >
-                <img src={`${project.img.src}`} className='h-[200px] w-full' />
+              <div className='h-[220px] w-full bg-cover bg-center overflow-hidden' >
+                <img src={`${project.img.src}`} className='h-[220px] w-full min-[400px]:hover:scale-[1.1] transition-[all_.3s] ' />
               </div>
 
               <div className={`about w-full py-2 px-4 flex flex-col justify-between gap-y-[15px]`}>
@@ -195,7 +206,7 @@ function Projects() {
                 <div className='title w-full flex items-center justify-between'>
                   {/* title */}
                   <div className=''>
-                    <span className='text-[#ffb400] font-bold text-[19px]'>{project.firstTitle} </span>
+                    <span className='text-[#ffb400] font-bold text-[19px]'>{project.firstTitle}</span>
                     <span className='text-[#0c0c0ce5] font-bold text-[19px]'>{project.lastTitle}</span>
                   </div>
 
