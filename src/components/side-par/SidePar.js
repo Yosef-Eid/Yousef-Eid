@@ -28,9 +28,9 @@ function SideBar() {
           <GrAppsRounded />
         </a>
 
-        <div className={styleIcon} title='Explains'>
+        <a href='#explains' className={styleIcon} title='Explains'>
           <GrWorkshop />
-        </div>
+        </a>
 
         <div className={styleIcon} title='Contact'>
           <IoEarthOutline />

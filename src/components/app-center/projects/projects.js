@@ -9,6 +9,16 @@ import note from './img-projects/note1.png'
 import eid from './img-projects/ed-circle.svg'
 import api from './img-projects/api.png'
 import cover from './img-projects/Cover.png'
+import curser from './img-projects/curser.png'
+import filter from './img-projects/filter.png'
+import hover from './img-projects/hover.png'
+import imgClick from './img-projects/img-click.png'
+import imgCss from './img-projects/img-css.png'
+import todoList from './img-projects/Screenshot 2023-09-12 194504.png'
+import singUp from './img-projects/singUp.png'
+import training from './img-projects/training.png'
+import web from './img-projects/web.png'
+import calculator from './img-projects/Calculator.png'
 
 // icons skills
 import html from '../skills/icons/html-1.svg'
@@ -43,6 +53,24 @@ function Projects() {
       linkWebsite: 'https://yosef-eid.github.io/Ed-Circal/',
     },
     {
+      img: todoList,
+      firstTitle: 'Eid',
+      lastTitle: 'Circle',
+      skills: [html, css, javascript, git, github],
+      description: 'A Website For Providing Educational Courses And Scholarships',
+      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
+      linkWebsite: 'https://note-me00.netlify.app/',
+    },
+    {
+      img: calculator,
+      firstTitle: 'Eid',
+      lastTitle: 'Circle',
+      skills: [html, css, javascript, git, github],
+      description: 'A Website For Providing Educational Courses And Scholarships',
+      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
+      linkWebsite: 'https://note-me00.netlify.app/',
+    },
+    {
       img: cover,
       firstTitle: 'Eid',
       lastTitle: 'Circle',
@@ -69,9 +97,81 @@ function Projects() {
       linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
       linkWebsite: 'https://note-me00.netlify.app/',
     },
+    {
+      img: curser,
+      firstTitle: 'Eid',
+      lastTitle: 'Circle',
+      skills: [html, css, javascript, git, github],
+      description: 'A Website For Providing Educational Courses And Scholarships',
+      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
+      linkWebsite: 'https://note-me00.netlify.app/',
+    },
+    {
+      img: filter,
+      firstTitle: 'Eid',
+      lastTitle: 'Circle',
+      skills: [html, css, javascript, git, github],
+      description: 'A Website For Providing Educational Courses And Scholarships',
+      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
+      linkWebsite: 'https://note-me00.netlify.app/',
+    },
+    {
+      img: hover,
+      firstTitle: 'Eid',
+      lastTitle: 'Circle',
+      skills: [html, css, javascript, git, github],
+      description: 'A Website For Providing Educational Courses And Scholarships',
+      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
+      linkWebsite: 'https://note-me00.netlify.app/',
+    },
+    {
+      img: imgClick,
+      firstTitle: 'Eid',
+      lastTitle: 'Circle',
+      skills: [html, css, javascript, git, github],
+      description: 'A Website For Providing Educational Courses And Scholarships',
+      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
+      linkWebsite: 'https://note-me00.netlify.app/',
+    },
+    {
+      img: imgCss,
+      firstTitle: 'Eid',
+      lastTitle: 'Circle',
+      skills: [html, css, javascript, git, github],
+      description: 'A Website For Providing Educational Courses And Scholarships',
+      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
+      linkWebsite: 'https://note-me00.netlify.app/',
+    },
+    {
+      img: singUp,
+      firstTitle: 'Eid',
+      lastTitle: 'Circle',
+      skills: [html, css, javascript, git, github],
+      description: 'A Website For Providing Educational Courses And Scholarships',
+      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
+      linkWebsite: 'https://note-me00.netlify.app/',
+    },
+    {
+      img: training,
+      firstTitle: 'Eid',
+      lastTitle: 'Circle',
+      skills: [html, css, javascript, git, github],
+      description: 'A Website For Providing Educational Courses And Scholarships',
+      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
+      linkWebsite: 'https://note-me00.netlify.app/',
+    },
+    
+    {
+      img: web,
+      firstTitle: 'Eid',
+      lastTitle: 'Circle',
+      skills: [html, css, javascript, git, github],
+      description: 'A Website For Providing Educational Courses And Scholarships',
+      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
+      linkWebsite: 'https://note-me00.netlify.app/',
+    },
     
   ]
-
 
   return (
     <div id='projects' className='w-full flex flex-col items-center justify-center flex-wrap gap-16 mt-28'>
@@ -113,7 +213,6 @@ function Projects() {
                 </div>
               </div>
             </div>
-
           ))
         }
       </div>
