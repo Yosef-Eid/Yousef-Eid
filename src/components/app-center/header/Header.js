@@ -22,7 +22,7 @@ function Header() {
         <div className='w-full flex  items-center justify-center  bg-white py-7 px-[5%] max-[1170px]:gap-7 max-[900px]:flex-col-reverse '>
           {/* about */}
           <div className='h-auto w-[60%] flex flex-col items-start gap-5 max-[1170px]:w-full max-[900px]:items-center '>
-            <div className='text-[48px] font-[600] text-[#2b2b2b] max-[900px]:text-center max-[700px]:text-[40px] max-[535px]:text-[35px]'>
+            <div className='text-[48px] font-[600] text-[#161616] max-[900px]:text-center max-[700px]:text-[40px] max-[535px]:text-[35px]'>
               <h1>I’m Youssef Eid</h1>
               <h1 className='mt-[-10px]'><span className='text-[#ffb400]'>Full-Stack</span> Developer</h1>
             </div>

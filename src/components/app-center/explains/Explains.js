@@ -16,7 +16,6 @@ function Explains() {
 
   return (
     <div id='explains' className='w-full flex flex-col items-center justify-center flex-wrap gap-16 mt-28'>
-
       <div className='flex flex-col items-center gap-6'>
         <h1 className='text-[32px] font-semibold text-[#2b2b2b]'><span className='text-[#ffb400]'>My</span> Explains</h1>
         <p className='w-[80%] text-center text-[17px] text-[#6a6a6a] font-[400]'>Some explanations of programming ideas and concepts</p>

@@ -1,43 +1,42 @@
+@media screen and (max-width: 640px) {
 
-
-@media screen and (min-width: 350px) and (max-width: 400px) {
-
-  .about{
+  .about {
     height: 200px;
     margin-bottom: -200px;
-    /* transform: translate(0px, 200px); */
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.884);
 
   }
 
-  .about .title{
+  .about .title {
     flex-direction: column;
     gap: 10px;
   }
 
-  .about .title div span{
-color: white;
+  .about .title div span {
+    color: #faa000;
   }
 
-  .about .links{
+  .about .links {
     gap: 4px;
   }
 
-
-  .about .links a{
+  .about .links a {
     font-size: 10px;
     /* color: white; */
-
   }
 
-  .description{
+  .description {
     display: none;
   }
 
-  .card:hover .about{
+  .card:hover .about {
     margin-top: -220px;
     color: white;
     transition: all .2s;
+    scale: 1;
+    background-color: rgba(255, 255, 255, 0.098)  ;
+    backdrop-filter: blur(15px);
   }
 }
+

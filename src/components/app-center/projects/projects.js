@@ -171,7 +171,7 @@ function Projects() {
       linkCode: 'https://github.com/Yosef-Eid/webket-training',
       linkWebsite: 'https://yosef-eid.github.io/webket-training/',
     },
-    
+
     {
       img: web,
       firstTitle: 'Web ',
@@ -181,11 +181,11 @@ function Projects() {
       linkCode: 'https://github.com/Yosef-Eid/Web-Design',
       linkWebsite: 'https://yosef-eid.github.io/Web-Design/',
     },
-    
+
   ]
 
   return (
-    <div id='projects' className='w-full flex flex-col items-center justify-center flex-wrap gap-16 mt-28'>
+    <div id='projects' className='w-full flex flex-col items-center justify-center flex-wrap gap-16 mt-28 '>
 
       <div className='flex flex-col items-center gap-6'>
         <h1 className='text-[32px] font-semibold text-[#2b2b2b]'><span className='text-[#ffb400]'>My</span> Projects</h1>
@@ -193,10 +193,10 @@ function Projects() {
       </div>
 
       {/* cards */}
-      <div className='w-full flex flex-wrap items-center justify-center px-[1%] gap-2'>
+      <div className='w-full flex flex-wrap items-center justify-center px-[1%] gap-2 max-[640px]:grid max-[640px]:grid-cols-2 max-[640px]:place-content-center max-[640px]:place-items-center  '>
         {
           projects.map((project, index) => (
-            <div key={index} className='card w-[270px] h-[370px] max-[350px]:h-[370px] max-[350px]:w-[270px] max-[400px]:h-[200px] max-[400px]:w-[165px] flex flex-col justify-start shadow-[0_0_10px_0_rgba(0,0,0,.237)] rounded-xl overflow-hidden border-[1px] border-gray-300  '>
+            <div key={index} className='card bg-white w-[270px] h-[370px] max-[350px]:h-[370px] max-[350px]:w-[270px] max-[640px]:h-[200px] max-[640px]:w-full   flex flex-col justify-start shadow-[0_0_10px_0_rgba(0,0,0,.237)] rounded-xl overflow-hidden border-[1px] border-gray-300 '>
               <div className='h-[220px] w-full bg-cover bg-center overflow-hidden' >
                 <img src={`${project.img.src}`} className='h-[220px] w-full min-[400px]:hover:scale-[1.1] transition-[all_.3s] ' />
               </div>
@@ -211,15 +211,15 @@ function Projects() {
                   </div>
 
                   {/* skills */}
-                  <div className='flex items-center gap-1'>
+                  <div className='flex items-center gap-1 px-4 py-1  rounded-full backdrop-blur-sm bg-white/30'>
                     {
-                      project.skills.map((skill, index) => ( <Image key={index} src={skill} width={12} alt='' />))
+                      project.skills.map((skill, index) => (<Image key={index} src={skill} width={12} alt='' />))
                     }
                   </div>
                 </div>
                 <span className='description text-[#2b2b2b] text-[13px]'>{project.description}</span>
                 <div className='links flex items-center justify-between '>
-                  <a href={project.linkCode} target='_blank' className='max-[400px]:text-white text-[#0c0c0c] decoration-inherit shadow-md border-[1px] border-gray-300  text-[15px] rounded-md py-1 w-24 text-center  hover:bg-[#ffb400] transition-all delay-75 ease-in-out'>View code </a>
+                  <a href={project.linkCode} target='_blank' className='max-[400px]:text-white text-[#0c0c0c] max-[640px]:text-[#ffffff]  decoration-inherit shadow-md border-[1px] border-gray-300  text-[15px] rounded-md py-1 w-24 text-center  hover:bg-[#ffb400] transition-all delay-75 ease-in-out'>View code </a>
                   <a href={project.linkWebsite} target='_blank' className='  text-[#0c0c0c] w-28 py-1 bg-[#ffb400] text-center text-[14px] font-bold rounded-md hover:bg-gray-900 hover:text-[#ffb400] transition-all delay-75 ease-in-out'>Live Preview</a>
                 </div>
               </div>
