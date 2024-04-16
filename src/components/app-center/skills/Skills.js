@@ -1,4 +1,3 @@
-
 import React from 'react'
 import Image from 'next/image'
 
@@ -22,6 +21,8 @@ import git from "./icons/git-icon.svg";
 import github from "./icons/github-icon-1.svg";
 import docker from "./icons/docker-4.svg";
 import notion from "./icons/notion-1-1.svg";
+import monday from "./icons/monday.svg";
+import clickUp from "./icons/clickup.svg";
 import firebase from "./icons/firebase-1.svg";
 import terminal from "./icons/terminal-1.svg";
 import vsCode from "./icons/visual-studio-code-1.svg";
@@ -50,6 +51,8 @@ function Skills() {
         {icon:github, title:'github'},
         {icon:docker, title:'docker'},
         {icon:notion, title:'notion'},
+        {icon:monday, title:'monday'},
+        {icon:clickUp, title:'clickUp'},
         {icon:firebase, title:'firebase'},
         {icon:terminal, title:'terminal'},
         {icon:vsCode, title:'vsCode'},

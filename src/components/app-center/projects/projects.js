@@ -211,7 +211,7 @@ function Projects() {
                   </div>
 
                   {/* skills */}
-                  <div className='flex items-center gap-1 px-4 py-1  rounded-full backdrop-blur-sm bg-white/30'>
+                  <div className='flex items-center justify-center gap-1 px-4 py-1 rounded-full backdrop-blur-sm bg-white/30'>
                     {
                       project.skills.map((skill, index) => (<Image key={index} src={skill} width={12} alt='' />))
                     }

@@ -3,6 +3,7 @@ import Header from './header/Header';
 import Skills from './skills/Skills';
 import Projects from './projects/projects';
 import Explains from './explains/Explains';
+import OtherSites from './other/otherSites';
 
 
 function AppCenter() {
@@ -12,6 +13,8 @@ function AppCenter() {
       <Skills />
       <Projects />
       <Explains />
+      <OtherSites />
+
 
     </div>
   )

@@ -23,7 +23,7 @@ function Explains() {
       <div className='w-full flex flex-wrap items-center justify-center gap-3 max-[610px]:grid max-[610px]:gap-1 max-[610px]:grid-cols-2'>
         {
           LinksPosts.map((post, index) => (
-            <iframe key={index} className='w-[260px] h-80 rounded-lg shadow-xl max-[610px]:w-full max-[610px]:h-[250px]' src={post} frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            <iframe key={index} className='w-[260px] h-80 rounded-lg shadow-xl max-[610px]:w-full max-[610px]:h-[250px] hover:scale-[1.04] transition-[all_.3s]' src={post} frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
           ))
         }
       </div>

@@ -32,13 +32,9 @@ function SideBar() {
           <GrWorkshop />
         </a>
 
-        <div className={styleIcon} title='Contact'>
-          <IoEarthOutline />
-        </div>
-
-        <div className={styleIcon} title='Other website'>
+        <a href='#other-site' className={styleIcon} title='Other website'>
           <PiPlanetLight />
-        </div>
+        </a>
       </div>
     </div>
   )
