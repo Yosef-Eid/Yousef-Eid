@@ -7,7 +7,10 @@ import './style.css'
 // images projects
 import note from './img-projects/note1.png'
 import eid from './img-projects/ed-circle.svg'
+import painter from './img-projects/painter.png'
+
 import api from './img-projects/api.png'
+import searchWords from './img-projects/search-words.png'
 import cover from './img-projects/Cover.png'
 import joscript from './img-projects/joscript.png'
 import back from './img-projects/back-end.png'
@@ -49,7 +52,7 @@ function Projects() {
       img: back,
       firstTitle: 'Add ',
       lastTitle: 'User',
-      skills: [html, css, javascript, node, express, mongoDb, mongoose, git, github],
+      skills: [ node, express, mongoDb, mongoose],
       description: 'Add, delete and modify users using the database',
       linkCode: 'https://github.com/Yosef-Eid/Back-End-dataUser',
       linkWebsite: 'https://joscript.onrender.com/',
@@ -89,6 +92,24 @@ function Projects() {
       description: 'A simple calculator using React ...............',
       linkCode: 'https://github.com/Yosef-Eid/Calculator-react',
       linkWebsite: 'https://calculator0r.netlify.app/',
+    },
+    {
+      img: painter,
+      firstTitle: 'Pai',
+      lastTitle: 'nter',
+      skills: [html, css, javascript,],
+      description: 'A painter program that can draw, delete, and add images',
+      linkCode: 'hhttps://github.com/Yosef-Eid/painter',
+      linkWebsite: 'https://painter-theta.vercel.app/',
+    },
+    {
+      img: searchWords,
+      firstTitle: 'Search ',
+      lastTitle: 'Words',
+      skills: [html, css, javascript,],
+      description: 'A search application that identifies the intended letters among the letters',
+      linkCode: 'https://github.com/Yosef-Eid/Search-for-words',
+      linkWebsite: 'https://search-for-words.vercel.app/',
     },
     {
       img: api,
