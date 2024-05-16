@@ -144,8 +144,8 @@ function Projects() {
       lastTitle: 'Project',
       skills: [html, css, javascript, git, github],
       description: 'You can easily filter projects among what you are looking for',
-      linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
-      linkWebsite: 'https://note-me00.netlify.app/',
+      linkCode: 'https://github.com/Yosef-Eid/Filter-Projects',
+      linkWebsite: 'https://yosef-eid.github.io/Filter-Projects/',
     },
     {
       img: hover,
