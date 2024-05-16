@@ -127,7 +127,7 @@ function Projects() {
       skills: [html, css, javascript, git, github],
       description: 'A Website For Providing Educational Courses And Scholarships',
       linkCode: 'https://github.com/Yosef-Eid/Ed-Circal',
-      linkWebsite: 'https://note-me00.netlify.app/',
+      linkWebsite: 'yosef-eid.github.io/Ed-Circal/',
     },
     {
       img: curser,
