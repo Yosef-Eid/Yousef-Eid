@@ -47,3 +47,13 @@ html{
   border: 1px solid black;
   /* background-image: url(../components/app-center/projects/img-projects/api.png); */
 }
+ 
+@media screen and (min-width:1170px) {
+  #show{
+  display: none;
+  }
+}
+
+#show{
+  display: none;
+  }

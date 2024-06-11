@@ -21,8 +21,9 @@ function Cv() {
         let show = document.getElementById('show')
         cv.style.marginLeft = '-300px'
         show.style.display = 'none'
-        
     };
+
+
 
     let styleIconSocial = 'cursor-pointer hover:scale-[1.1] transition-all delay-75'
 
@@ -36,7 +37,7 @@ function Cv() {
 
             <FaAnglesLeft onClick={handleBodyClick} className=' absolute right-4 top-4 cursor-pointer hover:bg-slate-100 text-slate-600 min-[1170px]:hidden' />
 
-            <div id="show" className={` fixed left-[300px] top-0 w-full h-[100vh] bg-[#00000034] transition-[all_.2s]`} onClick={handleBodyClick}></div>
+            <div id="show" className={`min-[1170px]:hidden flex-none z-[-1] fixed left-[300px] top-0 w-full h-[100vh] bg-[#00000034] transition-[all_.2s]`} onClick={handleBodyClick}></div>
 
             <div className='w-full flex flex-col gap-3 items-center '>
                 <Image src={Profile} alt='' className='rounded-full w-36 ' />
