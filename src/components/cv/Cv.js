@@ -1,6 +1,5 @@
-
 'use client'
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image';
 import Profile from './img/IMG_7498.JPEG'
 
@@ -15,24 +14,29 @@ import { FaAnglesLeft } from "react-icons/fa6";
 
 function Cv() {
 
+    // const [show, setShow] = useState()
+
     const handleBodyClick = () => {
         let cv = document.getElementById('cv')
+        let show = document.getElementById('show')
         cv.style.marginLeft = '-300px'
+        show.style.display = 'none'
+        
     };
 
     let styleIconSocial = 'cursor-pointer hover:scale-[1.1] transition-all delay-75'
 
     const skills = [
-        "HTML", "CSS", "JavaScript", "Bootstrap", "TailwindCSS", "Python", "React", "Next.js", "Redux", "Material-UI", "Node.js", "Express", "MongoDB", "Mongoose", "Postman", "NPM", "Git", "GitHub", "Docker", "Notion", "Monday", "ClickUp", "Firebase", "Terminal", "VS Code"
+        "HTML", "CSS", "JavaScript", "Bootstrap", "TailwindCSS", "Python", "React", "Next.js", "Apollo GraphQL", "Redux", "Material-UI", "Node.js", "Express", "MongoDB", "Mongoose", "Postman", "NPM", "Git", "GitHub", "Docker", "Notion", "Monday", "ClickUp", "Firebase", "Terminal", "VS Code"
     ]
 
-
     return (
-        <div id='cv' className='min-w-[300px] max-w-[300px] h-[100vh] bg-white p-6 box-border bg-wite shadow-xl overflow-y-scroll flex items-center flex-col pt-10 max-[1170px]:ml-[-300px] relative transition-all delay-75 ease-in-out z-50'>
+        <div id='cv' className='min-w-[300px] max-w-[300px] h-[100vh] bg-white p-6 box-border bg-wite shadow-xl overflow-y-scroll flex items-center flex-col pt-10 max-[1170px]:ml-[-300px] relative transition-[all_.2s] ease-in-out z-50'>
             {/* top profile */}
 
             <FaAnglesLeft onClick={handleBodyClick} className=' absolute right-4 top-4 cursor-pointer hover:bg-slate-100 text-slate-600 min-[1170px]:hidden' />
 
+            <div id="show" className={` fixed left-[300px] top-0 w-full h-[100vh] bg-[#00000034] transition-[all_.2s]`} onClick={handleBodyClick}></div>
 
             <div className='w-full flex flex-col gap-3 items-center '>
                 <Image src={Profile} alt='' className='rounded-full w-36 ' />
@@ -55,7 +59,7 @@ function Cv() {
             <div className='w-full flex items-center text-[15px] flex-col gap-2 text-[#2b2b2b] mt-7'>
                 <div className='w-full flex items-center justify-between '>
                     <p className='bg-[#ffb400] px-1 font-medium' >Age :</p>
-                    <p className=' font-medium'>22</p>
+                    <p className=' font-medium'>23</p>
                 </div>
                 <div className='w-full flex items-center justify-between '>
                     <p className='bg-[#ffb400] px-1 font-medium' >Address :</p>
@@ -80,7 +84,7 @@ function Cv() {
             {/* skills /////////////////////////////////// */}
             <div className='w-full flex flex-col gap-5 items-start mt-7'>
                 <h2 className='text-[18px] font-bold text-[#2b2b2b] ' >Skills</h2>
-                
+
                 {
                     skills.map((skill, index) => (
                         <div key={index} className='flex flex-col items-start justify-between gap-1 w-full text-[#767676] '>

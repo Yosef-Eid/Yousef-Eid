@@ -13,8 +13,11 @@ function Header() {
 
   function openCv() {
     let cv = document.getElementById('cv')
+    let show = document.getElementById('show')
     cv.style.marginLeft = 0
     cv.style.position = 'fixed'
+
+    show.style.display = 'flex'
   }
 
   return (

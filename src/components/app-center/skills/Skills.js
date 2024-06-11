@@ -9,6 +9,7 @@ import tailwind from "./icons/tailwind-css-2.svg";
 import python from "./icons/python-5.svg";
 import react from "./icons/react-2.svg";
 import next from "./icons/next-js.svg";
+import graphql from "./icons/graphql.svg";
 import redux from "./icons/redux.svg";
 import node from "./icons/node.svg";
 import express from "./icons/express-109.svg";
@@ -39,6 +40,7 @@ function Skills() {
         {icon:python, title:'python'},
         {icon:react, title:'react'},
         {icon:next, title:'next'},
+        {icon:graphql, title:'graphql'},
         {icon:redux, title:'redux'},
         {icon:mUi, title:'mUi'},
         {icon:node, title:'node'},
